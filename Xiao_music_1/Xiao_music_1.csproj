@@ -46,16 +46,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="..\..\..\..\Downloads\Xiao_Music\Connection.cs">
+      <Link>Connection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\Downloads\Xiao_Music\Form1.cs">
       <SubType>Form</SubType>
+      <Link>Form1.cs</Link>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="..\..\..\..\Downloads\Xiao_Music\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+      <Link>Form1.Designer.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\..\Downloads\Xiao_Music\Form2.cs">
+      <SubType>Form</SubType>
+      <Link>Form2.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\Downloads\Xiao_Music\Form2.designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <Link>Form2.designer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\Downloads\Xiao_Music\Form3.cs">
+      <SubType>Form</SubType>
+      <Link>Form3.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\Downloads\Xiao_Music\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+      <Link>Form3.Designer.cs</Link>
+    </Compile>
+    <Compile Include="MediaPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="..\..\..\..\Downloads\Xiao_Music\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+      <Link>Form1.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\Downloads\Xiao_Music\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <Link>Form2.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\Downloads\Xiao_Music\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+      <Link>Form3.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
